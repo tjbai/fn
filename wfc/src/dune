@@ -1,6 +1,7 @@
 (library
  (name lib)
- (modules lib))
+ (modules lib)
+ (libraries stdio xml-light))
 
 (executable
  (name wfc)
