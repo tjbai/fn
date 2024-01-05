@@ -1,0 +1,8 @@
+(library
+ (name lib)
+ (modules lib))
+
+(executable
+ (name wfc)
+ (modules wfc)
+ (libraries lib stdio))
